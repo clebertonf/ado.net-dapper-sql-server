@@ -1,1 +1,1 @@
-# dapper-sql-server
+# Acesso à dados com .NET, C#, Dapper e SQL Server
