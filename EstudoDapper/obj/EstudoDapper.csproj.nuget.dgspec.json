@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Dapper\\Dapper.csproj": {}
+    "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\EstudoDapper\\EstudoDapper.csproj": {}
   },
   "projects": {
-    "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Dapper\\Dapper.csproj": {
+    "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\EstudoDapper\\EstudoDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Dapper\\Dapper.csproj",
-        "projectName": "Dapper",
-        "projectPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Dapper\\Dapper.csproj",
+        "projectUniqueName": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\EstudoDapper\\EstudoDapper.csproj",
+        "projectName": "EstudoDapper",
+        "projectPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\EstudoDapper\\EstudoDapper.csproj",
         "packagesPath": "C:\\Users\\Cleberton\\.nuget\\packages\\",
-        "outputPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Dapper\\obj\\",
+        "outputPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\EstudoDapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cleberton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
