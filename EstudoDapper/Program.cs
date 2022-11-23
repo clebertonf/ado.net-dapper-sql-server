@@ -12,7 +12,7 @@ namespace DataAccessProject
             using (var connection = new SqlConnection(connectionString))
             {
                 MetodosBaseDapper.ListCategories(connection);
-                MetodosBaseDapper.InsertCategorie(connection);
+                // MetodosBaseDapper.InsertCategorie(connection);
             }
         }
     }
