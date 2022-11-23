@@ -1,4 +1,4 @@
-﻿using EstudoDapper.Métodos_Base;
+﻿using EstudoDapper.Metodos_Base;
 using Microsoft.Data.SqlClient;
 
 namespace DataAccessProject
@@ -11,8 +11,11 @@ namespace DataAccessProject
 
             using (var connection = new SqlConnection(connectionString))
             {
-                MetodosBaseDapper.ListCategories(connection);
+                // MetodosBaseDapper.UpdateCategorie(connection);
+                // MetodosBaseDapper.ListCategories(connection);
                 // MetodosBaseDapper.InsertCategorie(connection);
+                // MetodosBaseDapper.DeleteCategory(connection);
+                MetodosBaseDapper.ListCategoryId(connection);
             }
         }
     }
