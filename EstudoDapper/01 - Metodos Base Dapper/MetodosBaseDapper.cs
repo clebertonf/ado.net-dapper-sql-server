@@ -2,11 +2,13 @@
 using EstudoDapper.Models;
 using Microsoft.Data.SqlClient;
 using System;
+using System.Data;
 
 namespace EstudoDapper.Metodos_Base
 {
     public static class MetodosBaseDapper
     {
+        // Metodos base
         public static void ListCategories(SqlConnection connection)
         {
             // select
@@ -145,5 +147,17 @@ namespace EstudoDapper.Metodos_Base
 
             Console.WriteLine(rows);
         }
+
+        // Executando Procedures
+
+        public static void ExecuteProcedureDeleteStudent(SqlConnection connection)
+        {
+            var procedure = "spDeleteStudent";
+            var pars = new { StudentId = "79b82071-80a8-4e78-a79c-92c8cd1fd052" };
+            var affectedRows = connection.Execute(procedure, pars, commandType: CommandType.StoredProcedure);
+
+            Console.WriteLine($"{affectedRows} linhas afetadas");
+        }
+
     }
 }

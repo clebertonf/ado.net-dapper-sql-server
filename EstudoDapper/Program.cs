@@ -12,11 +12,12 @@ namespace DataAccessProject
             using (var connection = new SqlConnection(connectionString))
             {
                 // MetodosBaseDapper.UpdateCategorie(connection);
-                 MetodosBaseDapper.ListCategories(connection);
+                // MetodosBaseDapper.ListCategories(connection);
                 // MetodosBaseDapper.InsertCategorie(connection);
                 // MetodosBaseDapper.DeleteCategory(connection);
                 // MetodosBaseDapper.ListCategoryId(connection);
                 // MetodosBaseDapper.InsertManyCategoryes(connection);
+                MetodosBaseDapper.ExecuteProcedureDeleteStudent(connection);
             }
         }
     }
