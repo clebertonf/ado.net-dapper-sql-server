@@ -153,8 +153,8 @@ namespace EstudoDapper.Metodos_Base
         public static void ExecuteProcedureDeleteStudent(SqlConnection connection)
         {
             var procedure = "spDeleteStudent";
-            var pars = new { StudentId = "79b82071-80a8-4e78-a79c-92c8cd1fd052" };
-            var affectedRows = connection.Execute(procedure, pars, commandType: CommandType.StoredProcedure);
+            var parameters = new { StudentId = "79b82071-80a8-4e78-a79c-92c8cd1fd052" };
+            var affectedRows = connection.Execute(procedure, parameters, commandType: CommandType.StoredProcedure);
 
             Console.WriteLine($"{affectedRows} linhas afetadas");
         }
