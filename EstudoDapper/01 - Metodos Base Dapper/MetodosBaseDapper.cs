@@ -209,5 +209,16 @@ namespace EstudoDapper.Metodos_Base
 
             Console.WriteLine($"{GuidId} da categoria inserida.");
         }
+
+        public static void ExecuteViews(SqlConnection connection)
+        {
+            var sql = "SELECT * FROM [vwCourses]";
+            var courses = connection.Query(sql);
+            foreach (var item in courses)
+            {
+                Console.WriteLine($"{item.Id} - {item.Title}");
+            }
+
+        }
     }
 }
