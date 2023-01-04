@@ -18,7 +18,8 @@ namespace DataAccessProject
                 // MetodosBaseDapper.ListCategoryId(connection);
                 // MetodosBaseDapper.InsertManyCategoryes(connection);
                 // MetodosBaseDapper.ExecuteProcedureDeleteStudent(connection);
-                MetodosBaseDapper.ExecuteProcedureReadCoursesByCategoryID(connection);
+                // MetodosBaseDapper.ExecuteProcedureReadCoursesByCategoryID(connection);
+                MetodosBaseDapper.ExecuteScalar(connection);
             }
         }
     }
