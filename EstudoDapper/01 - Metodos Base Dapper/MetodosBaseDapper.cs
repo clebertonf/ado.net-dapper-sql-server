@@ -9,6 +9,7 @@ namespace EstudoDapper.Metodos_Base
     public static class MetodosBaseDapper
     {
         // Metodos base
+
         public static void ListCategories(SqlConnection connection)
         {
             // select
@@ -150,6 +151,7 @@ namespace EstudoDapper.Metodos_Base
 
         // Executando Procedures
 
+        // Sem retorno
         public static void ExecuteProcedureDeleteStudent(SqlConnection connection)
         {
             var procedure = "spDeleteStudent";
@@ -159,5 +161,17 @@ namespace EstudoDapper.Metodos_Base
             Console.WriteLine($"{affectedRows} linhas afetadas");
         }
 
+        // Com retorno (Tipo Dynamic)
+        public static void ExecuteProcedureReadCoursesByCategoryID(SqlConnection connection)
+        {
+            var procedure = "spGetCoursesByCategory";
+            var parameters = new { CategoryId = "09ce0b7b-cfca-497b-92c0-3290ad9d5142" };
+            var courses = connection.Query(procedure, parameters, commandType: CommandType.StoredProcedure);
+
+            foreach (var item in courses)
+            {
+                Console.WriteLine(item.Title);
+            }
+        }
     }
 }
