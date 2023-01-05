@@ -227,11 +227,16 @@ namespace EstudoDapper.Metodos_Base
         {
             var sql = @"SELECT * FROM [CareerItem] INNER JOIN [Course] ON [CareerItem].[CourseId] = [Course].[Id]";
 
-            var items = connection.Query(sql);
+            var items = connection.Query<CareerItem, Course, CareerItem>(sql,
+                (CareerItem, Course) =>
+                {
+                    CareerItem.Course = Course;
+                    return CareerItem;
+                }, splitOn: "Id");
 
             foreach (var item in items)
             {
-                Console.WriteLine(items);
+                Console.WriteLine($"Carreira => {item.Title} - Curso: {item.Course.Title}");
             }
         }
     }
