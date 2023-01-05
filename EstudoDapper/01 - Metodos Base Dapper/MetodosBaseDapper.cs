@@ -220,5 +220,12 @@ namespace EstudoDapper.Metodos_Base
             }
 
         }
+
+        // Relacionamentos
+
+        public static void OneToOne(SqlConnection connection)
+        {
+
+        }
     }
 }
