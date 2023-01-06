@@ -22,7 +22,8 @@ namespace DataAccessProject
                 //  MetodosBaseDapper.ExecuteScalar(connection);
                 // MetodosBaseDapper.ExecuteViews(connection);
                 // MetodosBaseDapper.OneToOne(connection);
-                MetodosBaseDapper.OneToMany(connection);
+                // MetodosBaseDapper.OneToMany(connection);
+                MetodosBaseDapper.QueryMutiple(connection);
             }
         }
     }
