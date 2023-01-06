@@ -21,7 +21,8 @@ namespace DataAccessProject
                 // MetodosBaseDapper.ExecuteProcedureReadCoursesByCategoryID(connection);
                 //  MetodosBaseDapper.ExecuteScalar(connection);
                 // MetodosBaseDapper.ExecuteViews(connection);
-                MetodosBaseDapper.OneToOne(connection);
+                // MetodosBaseDapper.OneToOne(connection);
+                MetodosBaseDapper.OneToMany(connection);
             }
         }
     }
