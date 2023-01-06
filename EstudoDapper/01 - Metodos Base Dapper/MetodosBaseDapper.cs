@@ -306,5 +306,24 @@ namespace EstudoDapper.Metodos_Base
                 }
             }
         }
+
+        public static void SelectIn(SqlConnection connection)
+        {
+            var query = @"select * from Career where [Id] IN @Id";
+
+            var items = connection.Query<Career>(query, new
+            {
+                Id = new[]{
+                    "4327ac7e-963b-4893-9f31-9a3b28a4e72b",
+                    "e6730d1c-6870-4df3-ae68-438624e04c72"
+                }
+            });
+
+            foreach (var item in items)
+            {
+                Console.WriteLine(item.Title);
+            }
+
+        }
     }
 }
