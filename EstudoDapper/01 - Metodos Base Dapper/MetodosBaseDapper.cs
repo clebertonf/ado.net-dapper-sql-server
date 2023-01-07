@@ -328,7 +328,18 @@ namespace EstudoDapper.Metodos_Base
 
         public static void Like(SqlConnection connection)
         {
+            var query = @"SELECT * FROM [Course] WHERE [Title] LIKE @exp";
+            var term = "%api%";
 
+            var items = connection.Query<Course>(query, new
+            {
+                exp = $"%{term}%"
+            });
+
+            foreach (var item in items)
+            {
+                Console.WriteLine(item.Title);
+            }
         }
     }
 }
