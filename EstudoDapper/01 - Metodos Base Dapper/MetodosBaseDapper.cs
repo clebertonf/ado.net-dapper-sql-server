@@ -325,5 +325,10 @@ namespace EstudoDapper.Metodos_Base
             }
 
         }
+
+        public static void Like(SqlConnection connection)
+        {
+
+        }
     }
 }
