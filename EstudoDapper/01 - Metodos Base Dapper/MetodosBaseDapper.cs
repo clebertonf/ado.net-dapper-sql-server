@@ -341,5 +341,10 @@ namespace EstudoDapper.Metodos_Base
                 Console.WriteLine(item.Title);
             }
         }
+
+        public static void Transaction(SqlConnection connection)
+        {
+
+        }
     }
 }
