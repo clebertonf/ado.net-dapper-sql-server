@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ado.net", "Ado.net\Ado.net.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudoDapper", "EstudoDapper\EstudoDapper.csproj", "{3117DBA3-0410-49D5-B664-E93A481F35D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mao na massa Dapper", "Mao na massa Dapper\Mao na massa Dapper.csproj", "{3FF07B00-86D3-43C5-AB69-075DBA3F9102}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaoNaMassaDapper", "Mao na massa Dapper\MaoNaMassaDapper.csproj", "{3FF07B00-86D3-43C5-AB69-075DBA3F9102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

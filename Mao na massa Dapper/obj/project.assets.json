@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\Mao na massa Dapper.csproj",
-      "projectName": "Mao na massa Dapper",
-      "projectPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\Mao na massa Dapper.csproj",
+      "projectUniqueName": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\MaoNaMassaDapper.csproj",
+      "projectName": "MaoNaMassaDapper",
+      "projectPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\MaoNaMassaDapper.csproj",
       "packagesPath": "C:\\Users\\Cleberton\\.nuget\\packages\\",
       "outputPath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\obj\\",
       "projectStyle": "PackageReference",

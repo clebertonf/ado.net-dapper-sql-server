@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i9ZPIdFiXJbbiTepXqI3tvUeJydqnzI2uRMe1cpUUK6MQXqOU3ZCFvg6BkEXwbJnu8IYPrtXiXX8mzQQ7mACeg==",
+  "dgSpecHash": "tv1isbEJpNNgXBdR1Lf4Lyav+h6yuxQPwCflOcZLKr7CCqrynZGiy7BJSW6NdfQxK0jFbfPvy507ufCD5Hhb5Q==",
   "success": true,
-  "projectFilePath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\Mao na massa Dapper.csproj",
+  "projectFilePath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Mao na massa Dapper\\MaoNaMassaDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cleberton\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
