@@ -1,0 +1,14 @@
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.exe
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.deps.json
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.runtimeconfig.json
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.runtimeconfig.dev.json
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.dll
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.pdb
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.csproj.AssemblyReference.cache
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.AssemblyInfoInputs.cache
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.AssemblyInfo.cs
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.csproj.CoreCompileInputs.cache
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.dll
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.pdb
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\obj\Debug\netcoreapp3.1\MaoNaMassaDapper.genruntimeconfig.cache
