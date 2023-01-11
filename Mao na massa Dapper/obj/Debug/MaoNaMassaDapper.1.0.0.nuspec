@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MaoNaMassaDapper</id>
+    <version>1.0.0</version>
+    <authors>MaoNaMassaDapper</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.runtimeconfig.json" target="lib\netcoreapp3.1\MaoNaMassaDapper.runtimeconfig.json" />
+    <file src="D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Mao na massa Dapper\bin\Debug\netcoreapp3.1\MaoNaMassaDapper.dll" target="lib\netcoreapp3.1\MaoNaMassaDapper.dll" />
+  </files>
+</package>

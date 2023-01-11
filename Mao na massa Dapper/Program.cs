@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mao_na_massa_Dapper.Blog.Crud;
+using System;
 
 namespace Mao_na_massa_Dapper
 {
@@ -6,7 +7,7 @@ namespace Mao_na_massa_Dapper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MetodosCrud.ReadUsers();
         }
     }
 }
