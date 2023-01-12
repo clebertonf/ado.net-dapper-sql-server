@@ -19,5 +19,16 @@ namespace Mao_na_massa_Dapper.Blog.Crud
                 }
             }
         }
+
+        public static void ReadUser()
+        {
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                var user = connection.Get<User>(1);
+                
+                Console.WriteLine(user.Name);
+
+            }
+        }
     }
 }
