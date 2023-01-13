@@ -73,5 +73,17 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
             }
         }
+
+        public static void DeleteUser()
+        {
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                var user = connection.Get<User>(5);
+                var rows = connection.Delete<User>(user);
+
+                Console.WriteLine(rows);
+
+            }
+        }
     }
 }

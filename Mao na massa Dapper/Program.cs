@@ -9,8 +9,9 @@ namespace Mao_na_massa_Dapper
         {
             // MetodosCrud.ReadUsers();
             // MetodosCrud.ReadUser();
-            //  MetodosCrud.CreateUser();
-            MetodosCrud.UpdateUser();
+            // MetodosCrud.CreateUser();
+            // MetodosCrud.UpdateUser();
+            MetodosCrud.DeleteUser();
         }
     }
 }
