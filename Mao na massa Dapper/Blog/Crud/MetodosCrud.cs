@@ -30,5 +30,26 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
             }
         }
+
+        public static void CreateUser()
+        {
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                var user = new User()
+                {
+                    Image = "https://...",
+                    Bio = "Katrine",
+                    Name = "Katrine Carvalho",
+                    Email = "Katrine@gmail.com",
+                    PasswordHash = "Hash",
+                    slug = "katrine-carvalho"
+                };
+
+                var rows = connection.Insert<User>(user);
+
+                Console.WriteLine(rows);
+
+            }
+        }
     }
 }
