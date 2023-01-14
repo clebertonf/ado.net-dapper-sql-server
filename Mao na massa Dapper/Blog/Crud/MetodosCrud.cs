@@ -12,7 +12,7 @@ namespace Mao_na_massa_Dapper.Blog.Crud
         public static void ReadUsers()
         {
             var repository = new UserRepository();
-            var users = repository.GetAll();
+            var users = repository.GetAll(CONNECTION_STRING);
 
             foreach (var user in users )
             {

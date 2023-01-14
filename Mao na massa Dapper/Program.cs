@@ -7,7 +7,7 @@ namespace Mao_na_massa_Dapper
     {
         static void Main(string[] args)
         {
-            // MetodosCrud.ReadUsers();
+            MetodosCrud.ReadUsers();
             // MetodosCrud.ReadUser();
             // MetodosCrud.CreateUser();
             // MetodosCrud.UpdateUser();

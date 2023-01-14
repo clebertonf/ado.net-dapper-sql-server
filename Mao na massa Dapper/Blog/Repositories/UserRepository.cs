@@ -9,12 +9,10 @@ namespace Mao_na_massa_Dapper.Blog.Repositories
 {
     public class UserRepository
     {
-        public IEnumerable<User> GetAll()
+        public IEnumerable<User> GetAll(string connectionString)
         {
-            using (var connection = new SqlConnection(CONNECTION_STRING))
-            {
-                return connection.GetAll<User>();
-            }
+            using var connection = new SqlConnection(connectionString);
+            return connection.GetAll<User>();
         }
     }
 }
