@@ -7,8 +7,14 @@ namespace Mao_na_massa_Dapper.Blog.Repositories
 {
     public class UserRepository 
     { 
-        private SqlConnection _connection = new SqlConnection();
-        public IEnumerable<User> GetAll(string connectionString)
+        private readonly SqlConnection _connection;
+
+        public UserRepository(SqlConnection connection)
+        {
+            _connection = connection;
+        }
+
+        public IEnumerable<User> GetAll()
         {
             return _connection.GetAll<User>();
         }
