@@ -8,12 +8,11 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 {
     public class MetodosCrud
     {
-        private const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;Encrypt=False;User ID=sa;Password=1q2w3e4r@#$";
-        public static void ReadUsers()
+        public static void ReadUsers(SqlConnection connection)
         {
-            var repository = new UserRepository();
-            var users = repository.GetAll(CONNECTION_STRING);
-
+            var repository = new UserRepository(connection);
+            var users = repository.GetAll();
+            
             foreach (var user in users )
             {
                 Console.WriteLine(user.Name);
@@ -22,7 +21,7 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
         public static void ReadUser()
         {
-            using (var connection = new SqlConnection(CONNECTION_STRING))
+            using (var connection = new SqlConnection())
             {
                 var user = connection.Get<User>(1);
                 
@@ -33,7 +32,7 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
         public static void CreateUser()
         {
-            using (var connection = new SqlConnection(CONNECTION_STRING))
+            using (var connection = new SqlConnection())
             {
                 var user = new User()
                 {
@@ -54,7 +53,7 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
         public static void UpdateUser()
         {
-            using (var connection = new SqlConnection(CONNECTION_STRING))
+            using (var connection = new SqlConnection())
             {
                 var user = new User()
                 {
@@ -76,7 +75,7 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
         public static void DeleteUser()
         {
-            using (var connection = new SqlConnection(CONNECTION_STRING))
+            using (var connection = new SqlConnection())
             {
                 var user = connection.Get<User>(5);
                 var rows = connection.Delete<User>(user);
