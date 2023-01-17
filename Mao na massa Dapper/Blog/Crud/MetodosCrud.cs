@@ -88,14 +88,14 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
         // Role
 
-        public static void ReadRole(SqlConnection connection)
+        public static void ReadRoles(SqlConnection connection)
         {
             var repository = new RoleRepository(connection);
             var roles = repository.GetAll();
 
             foreach (var role in roles)
             {
-                Console.WriteLine(role);
+                Console.WriteLine(role.Name);
             }
         }
 

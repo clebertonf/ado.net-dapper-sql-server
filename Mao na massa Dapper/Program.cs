@@ -20,7 +20,7 @@ namespace Mao_na_massa_Dapper
             // MetodosCrud.DeleteUser();
 
             // Role
-            MetodosCrud.ReadRole(connnection);
+            MetodosCrud.ReadRoles(connnection);
 
             connnection.Close();
         }
