@@ -46,7 +46,8 @@ namespace Mao_na_massa_Dapper.Blog.Repositories
             }
         }
 
-        public void DeleteById(int id)
+        // Nome igual Delete (método tem uma sobrecarga)
+        public void Delete(int id)
         {
             if (id != 0)
                 return;
