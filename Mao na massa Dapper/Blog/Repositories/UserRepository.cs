@@ -26,17 +26,24 @@ namespace Mao_na_massa_Dapper.Blog.Repositories
 
         public void Create(User user)
         {
+            user.Id = 0;
             _connection.Insert<User>(user);
         }
 
         public void Update(User user)
         {
-            _connection.Update<User>(user);
+            if(user.Id != 0)
+            {
+                _connection.Update<User>(user);
+            }
         }
 
         public void Delete(User user)
         {
-            _connection.Delete<User>(user);
+            if(user.Id != 0)
+            {
+                _connection.Delete<User>(user);
+            }
         }
     }
 }
