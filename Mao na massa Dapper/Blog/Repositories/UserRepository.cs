@@ -45,5 +45,13 @@ namespace Mao_na_massa_Dapper.Blog.Repositories
                 _connection.Delete<User>(user);
             }
         }
+
+        public void DeleteById(int id)
+        {
+            if (id != 0)
+                return;
+            var user = _connection.Get<User>(id);
+            _connection.Delete<User>(user);
+        }
     }
 }
