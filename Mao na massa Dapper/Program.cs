@@ -12,11 +12,15 @@ namespace Mao_na_massa_Dapper
             var connnection = new SqlConnection(CONNECTION_STRING);
             connnection.Open();
 
-            MetodosCrud.ReadUsers(connnection);
+            // Users
+            //MetodosCrud.ReadUsers(connnection);
             // MetodosCrud.ReadUser();
             // MetodosCrud.CreateUser();
             // MetodosCrud.UpdateUser();
             // MetodosCrud.DeleteUser();
+
+            // Role
+            MetodosCrud.ReadRole(connnection);
 
             connnection.Close();
         }

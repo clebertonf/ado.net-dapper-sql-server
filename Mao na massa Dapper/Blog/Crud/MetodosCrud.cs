@@ -8,6 +8,7 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 {
     public class MetodosCrud
     {
+        // User
         public static void ReadUsers(SqlConnection connection)
         {
             var repository = new UserRepository(connection);
@@ -84,5 +85,19 @@ namespace Mao_na_massa_Dapper.Blog.Crud
 
             }
         }
+
+        // Role
+
+        public static void ReadRole(SqlConnection connection)
+        {
+            var repository = new RoleRepository(connection);
+            var roles = repository.GetAll();
+
+            foreach (var role in roles)
+            {
+                Console.WriteLine(role);
+            }
+        }
+
     }
 }
