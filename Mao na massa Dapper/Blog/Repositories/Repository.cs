@@ -1,5 +1,4 @@
 ﻿using Dapper.Contrib.Extensions;
-using Mao_na_massa_Dapper.Blog.Models;
 using Microsoft.Data.SqlClient;
 using System.Collections.Generic;
 
