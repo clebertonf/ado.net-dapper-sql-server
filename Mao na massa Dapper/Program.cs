@@ -20,7 +20,10 @@ namespace Mao_na_massa_Dapper
             // MetodosCrud.DeleteUser();
 
             // Role
-            MetodosCrud.ReadRoles(connnection);
+           // MetodosCrud.ReadRoles(connnection);
+
+            // Repositorio Genérico
+            MetodosCrud.ReadUsersGeneric(connnection);
 
             connnection.Close();
         }

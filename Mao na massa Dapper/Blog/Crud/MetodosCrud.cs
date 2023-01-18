@@ -99,5 +99,18 @@ namespace Mao_na_massa_Dapper.Blog.Crud
             }
         }
 
+        // Repositorio Genérico
+
+        public static void ReadUsersGeneric(SqlConnection connection)
+        {
+            var repository = new Repository<User>(connection);
+            var users = repository.GetAll();
+
+            foreach (var user in users)
+            {
+                Console.WriteLine(user.Name);
+            }
+        }
+
     }
 }
