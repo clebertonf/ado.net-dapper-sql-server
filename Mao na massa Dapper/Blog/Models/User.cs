@@ -19,6 +19,8 @@ namespace Mao_na_massa_Dapper.Blog.Models
         public string Bio { get; set; }
         public string Image { get; set; }
         public string slug { get; set; }
+
+        [Write(false)] // Não inclui na hora de inserir no banco
         public List<Role> Roles { get; set; }
     }
 }

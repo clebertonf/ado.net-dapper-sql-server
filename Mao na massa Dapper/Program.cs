@@ -22,7 +22,7 @@ namespace Mao_na_massa_Dapper
             // Role
            // MetodosCrud.ReadRoles(connnection);
 
-            // Repositorio Genérico
+            // Repositorio Genérico (Para crud básico sem tipos complexos de propriedades)
             MetodosCrud.ReadUsersGeneric(connnection);
 
             connnection.Close();
