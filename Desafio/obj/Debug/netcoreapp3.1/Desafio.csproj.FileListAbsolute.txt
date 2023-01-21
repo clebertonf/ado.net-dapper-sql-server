@@ -1,0 +1,14 @@
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\bin\Debug\netcoreapp3.1\Desafio.exe
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\bin\Debug\netcoreapp3.1\Desafio.deps.json
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\bin\Debug\netcoreapp3.1\Desafio.runtimeconfig.json
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\bin\Debug\netcoreapp3.1\Desafio.runtimeconfig.dev.json
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\bin\Debug\netcoreapp3.1\Desafio.dll
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\bin\Debug\netcoreapp3.1\Desafio.pdb
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.csproj.AssemblyReference.cache
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.AssemblyInfoInputs.cache
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.AssemblyInfo.cs
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.csproj.CoreCompileInputs.cache
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.dll
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.pdb
+D:\Acesso à dados com .NET, C#, Dapper e SQL Server\ado.net-dapper-sql-server\Desafio\obj\Debug\netcoreapp3.1\Desafio.genruntimeconfig.cache

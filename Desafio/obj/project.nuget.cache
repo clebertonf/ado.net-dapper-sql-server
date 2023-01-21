@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "93xaM818kd0wZGqf/tYkvdCPOmnA9QwQUJf6YPSWo7lEr85GJIJ81C5ht+IBhF9GgfgJk8QH7XjcxtFefT0HEA==",
+  "success": true,
+  "projectFilePath": "D:\\Acesso à dados com .NET, C#, Dapper e SQL Server\\ado.net-dapper-sql-server\\Desafio\\Desafio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cleberton\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
