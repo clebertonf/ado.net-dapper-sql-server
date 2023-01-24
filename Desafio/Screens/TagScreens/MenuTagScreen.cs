@@ -23,8 +23,7 @@ namespace Desafio.Screens.TagScreens
 
             switch (option)
             {
-                case 1:
-                    break;
+               
             }
         }
     }
