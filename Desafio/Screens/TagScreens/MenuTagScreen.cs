@@ -9,9 +9,9 @@ namespace Desafio.Screens.TagScreens
         public static void load()
         {
             Console.Clear();
-            Console.WriteLine("Gestão de tags");
+            Console.WriteLine("Gestão de tags do sistema");
             Console.WriteLine("--------------");
-            Console.WriteLine("O que deseja fazer?");
+            Console.WriteLine("O que gostaria de fazer?");
             Console.WriteLine();
             Console.WriteLine("1 - Listar tags");
             Console.WriteLine("2 - Cadastrar tags");
