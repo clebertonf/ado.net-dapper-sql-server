@@ -6,7 +6,7 @@ namespace Desafio.Screens.TagScreens
 {
     public static class MenuTagScreen
     {
-        public static void load()
+        public static void Load()
         {
             Console.Clear();
             Console.WriteLine("Gestão de tags do sistema");
