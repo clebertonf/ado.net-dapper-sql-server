@@ -6,16 +6,17 @@ namespace Desafio
 {
     internal class Program
     {
-        private const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User ID=sa;Password=1q2w3e4r@#$";
+        private const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;Encrypt=False;User ID=sa;Password=1q2w3e4r@#$";
+
         static void Main(string[] args)
         {
-            var Connection = new SqlConnection(CONNECTION_STRING);
-            Connection.Open();
+           Database.Connection = new SqlConnection(CONNECTION_STRING);
+            Database.Connection.Open();
 
             Load();
 
             Console.ReadKey();
-            Connection.Close();
+            Database.Connection.Close();
 
         }
 

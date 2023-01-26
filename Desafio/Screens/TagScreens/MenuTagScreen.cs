@@ -23,7 +23,19 @@ namespace Desafio.Screens.TagScreens
 
             switch (option)
             {
-               
+                case 1:
+                    ListTagsScreen.Load();
+                    break;
+                case 2:
+                   // CreateTagScreen.Load();
+                    break;
+                case 3:
+                   // UpdateTagScreen.Load();
+                    break;
+                case 4:
+                   // DeleteTagScreen.Load();
+                    break;
+                default: Load(); break;
             }
         }
     }
