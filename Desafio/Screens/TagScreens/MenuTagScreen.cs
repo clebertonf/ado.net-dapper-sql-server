@@ -30,10 +30,10 @@ namespace Desafio.Screens.TagScreens
                     CreateTagScreen.Load();
                     break;
                 case 3:
-                   // UpdateTagScreen.Load();
+                    UpdateTagScreen.Load();
                     break;
                 case 4:
-                   // DeleteTagScreen.Load();
+                    DeleteTagScreen.Load();
                     break;
                 default: Load(); break;
             }
