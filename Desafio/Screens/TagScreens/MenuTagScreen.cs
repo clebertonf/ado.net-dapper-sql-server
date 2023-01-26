@@ -27,7 +27,7 @@ namespace Desafio.Screens.TagScreens
                     ListTagsScreen.Load();
                     break;
                 case 2:
-                   // CreateTagScreen.Load();
+                    CreateTagScreen.Load();
                     break;
                 case 3:
                    // UpdateTagScreen.Load();
